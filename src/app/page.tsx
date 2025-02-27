@@ -1,5 +1,4 @@
 import { ModelViewer } from '../component/model-viewer';
-import style from './page.module.css';
 
 export default function Home() {
     return (
