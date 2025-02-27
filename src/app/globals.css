@@ -1,12 +1,13 @@
 :root {
-  --background: #ffffff;
+  --background: #b1acf8;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #b1acf8;
+    --foreground: #ffffff;
+
   }
 }
 
@@ -39,4 +40,20 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+h1 {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-family: comic sans ms;
+}
+
+#subtext {
+  font-size: 1rem;
+  margin-top: 5rem;
+  font-family: comic sans ms;
+  color: white;
 }

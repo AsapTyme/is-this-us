@@ -16,6 +16,15 @@
   font-family: var(--font-geist-sans);
 }
 
+div h1 h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -166,3 +175,4 @@ a.secondary {
     filter: invert();
   }
 }
+

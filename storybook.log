@@ -1,0 +1,10 @@
+npm error code EEXIST
+npm error syscall rename
+npm error path /Users/justin/.npm/_cacache/tmp/5fad9f3c
+npm error dest /Users/justin/.npm/_cacache/content-v2/sha512/f1/17/780000b1f47d10524ee7ecf940ba87812ca76953b9f36763266fd02c9a00f861c5623c07c914cde84e58ebfe8c1a185c6dcee3ff5f66662fc57ce1fb7871
+npm error errno EEXIST
+npm error Invalid response body while trying to fetch https://registry.npmjs.org/sass-loader: EACCES: permission denied, rename '/Users/justin/.npm/_cacache/tmp/5fad9f3c' -> '/Users/justin/.npm/_cacache/content-v2/sha512/f1/17/780000b1f47d10524ee7ecf940ba87812ca76953b9f36763266fd02c9a00f861c5623c07c914cde84e58ebfe8c1a185c6dcee3ff5f66662fc57ce1fb7871'
+npm error File exists: /Users/justin/.npm/_cacache/content-v2/sha512/f1/17/780000b1f47d10524ee7ecf940ba87812ca76953b9f36763266fd02c9a00f861c5623c07c914cde84e58ebfe8c1a185c6dcee3ff5f66662fc57ce1fb7871
+npm error Remove the existing file and try again, or run npm
+npm error with --force to overwrite files recklessly.
+npm error A complete log of this run can be found in: /Users/justin/.npm/_logs/2025-02-27T20_35_23_923Z-debug-0.log
